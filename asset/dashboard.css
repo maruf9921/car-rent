@@ -1,0 +1,61 @@
+/* Dashboard Page Styling */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 14px 28px;
+    margin: 10px 15px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #ffffff;
+    color: #2575fc;
+    border: none;
+    border-radius: 8px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover {
+    background-color: #f0f0f0;
+    color: #1a5edb;
+    transform: translateY(-2px);
+}
+
+/* Logout Link */
+.logout {
+    display: inline-block;
+    margin-top: 40px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logout:hover {
+    color: #ddd;
+}
